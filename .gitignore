@@ -1,0 +1,7 @@
+node_modules/
+credentials.json
+.env
+.env.*
+Magee bot details.txt
+Magee bot deatails.txt
+Magee bot*.txt
