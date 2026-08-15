@@ -2535,7 +2535,7 @@ let poweredByLogo = null;
 
 if (divisionConfig.poweredByLogo) {
     poweredByLogo = await loadImage(
-        path.join(__dirname, 'assets', 'logos', 'Banners', divisionConfig.poweredByLogo)
+        path.join(__dirname, 'assets', 'logos', 'banners', divisionConfig.poweredByLogo)
     );
 }
 
