@@ -5,7 +5,11 @@ function normalise(value) {
 function shouldIgnoreStatus(status) {
   const cleanStatus = normalise(status);
 
-  return cleanStatus === 'completed' || cleanStatus === 'arranged';
+  return (
+    cleanStatus === 'complete' ||
+    cleanStatus === 'completed' ||
+    cleanStatus === 'arranged'
+  );
 }
 
 function getLatestFixtureWeek(fixtures) {
